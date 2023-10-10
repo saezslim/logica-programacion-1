@@ -62,10 +62,10 @@ function ordenarNumeros(num1, num2, num3) {
 numeros = [num1, num2, num3];
 
 const numerosMenorAMayor =[...numeros].sort((a, b) => a - b);
-  console.log(numerosMenorAMayor);
+  //console.log(numerosMenorAMayor);
 
 const numerosMayorAMenor =[...numeros].sort((a, b) => b - a);
-  console.log(numerosMayorAMenor);
+  //console.log(numerosMayorAMenor);
   mayor = numerosMayorAMenor[0]
   centro = numerosMayorAMenor[1]
   menor = numerosMayorAMenor[2]
